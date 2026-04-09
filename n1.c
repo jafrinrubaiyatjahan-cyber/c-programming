@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double a = 1.5;
-    double b = 2.5;
-    double sum;
+    double a = 2.2, b = 3.3;
 
-    sum = a + b;
-
-    printf("%lf\n", sum);
+    printf("%lf\n", a + b);
 
     return 0;
 }
