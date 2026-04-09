@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double arr[2] = {1.5, 2.5};
-    double sum;
+    double a[2] = {2.2, 3.3};
 
-    sum = arr[0] + arr[1];
-
-    printf("%lf\n", sum);
+    printf("%lf\n", a[0] + a[1]);
 
     return 0;
 }
