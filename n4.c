@@ -2,7 +2,7 @@
 
 double Add(double a, double b) {
     double c = a+b;
-    return a + b;
+    return c;
 }
 
 int main() {
