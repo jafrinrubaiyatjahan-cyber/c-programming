@@ -5,13 +5,9 @@ double Add(double a, double b) {
 }
 
 int main() {
-    double a = 1.5;
-    double b = 2.5;
-    double result;
+    double a = 2.2, b = 3.3;
 
-    result = Add(a, b);
-
-    printf("%lf\n", result);
+    printf("%lf\n", Add(a, b));
 
     return 0;
 }
